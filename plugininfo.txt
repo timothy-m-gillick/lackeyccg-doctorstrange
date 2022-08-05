@@ -1,0 +1,62 @@
+<plugin>
+
+
+<deckzone>
+     <label>Deck</label>
+     <gamezonetoloadto>Deck</gamezonetoloadto>
+     <shuffle>yes</shuffle>
+</deckzone>
+<deckzone>
+	<label>Good Start</label>
+     <gamezonetoloadto>Good</gamezonetoloadto>
+</deckzone>
+<deckzone>
+	<label>Evil Start</label>
+     <gamezonetoloadto>Evil</gamezonetoloadto>
+</deckzone>
+
+<gamezone>
+	<label>Good</label>
+     <visibletoowner>yes</visibletoowner>
+</gamezone>
+<gamezone>
+	<label>Evil</label>
+     <visibletoowner>yes</visibletoowner>
+</gamezone>
+
+<gamezone>
+     <label>Hand</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+</gamezone>
+
+<gamezone>
+     <label>Deck</label>
+     <isshared>yes</isshared>
+</gamezone>
+
+<gamezone>
+     <label>Discard</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>yes</visibletoothers>
+     <isshared>yes</isshared>
+</gamezone>
+
+<phase><label>Mystic Arts</label></phase>
+<phase><label>Summon</label></phase>
+<phase><label>Attack</label></phase>
+<phase><label>Rest</label></phase>
+
+<generalfunction>
+	<label>Draw a Card</label>
+	<kind>TRANSFERCARD</kind>
+	<sourceowner>shared</sourceowner>
+	<sourcegamezone>Deck</sourcegamezone>
+	<sourceposition>top</sourceposition>
+	<destinationgamezone>Hand</destinationgamezone>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction><label>Roll Die</label><kind>ROLLD12</kind><includeasbutton>yes</includeasbutton></generalfunction>
+
+</plugin>
