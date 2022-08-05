@@ -1,0 +1,5 @@
+DoctorStrange	08-03-22
+plugins/DoctorStrange/plugininfo.txt	https://github.com/timothy-m-gillick/lackeyccg-doctorstrange/raw/main/plugininfo.txt	128456
+plugins/DoctorStrange/sets/setimages/general/cardback.jpg	https://github.com/timothy-m-gillick/lackeyccg-doctorstrange/raw/main/cardback.jpg	427405
+CardGeneralURLs:		
+https://drive.google.com/drive/folders/10nlGN796WSCxvDslaGxMZoqMwdXMyT_Q?usp=sharing
